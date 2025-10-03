@@ -1,4 +1,27 @@
 {
+<<<<<<< HEAD
+  "name": "luct-reporting-backend",
+  "version": "1.0.0",
+  "description": "Backend for LUCT Reporting System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "MONYAMANE410",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mysql2": "^3.15.1"
+  },
+  "engines": {
+    "node": ">=18"
+=======
   "name": "luct-reporting-frontend",
   "version": "0.1.0",
   "private": true,
@@ -47,5 +70,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+>>>>>>> a98f000a52a939e5faee65df4616a4b07e2646f5
   }
 }
